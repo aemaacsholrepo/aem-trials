@@ -423,6 +423,11 @@ Bundle-DocURL:
                         <enabled>false</enabled>
                     </snapshots>
                 </repository>
+                <repository>
+                    <id>hol-public-artifactory</id>
+                    <name>a0j83qq04ahzl-artifactory-primary-0-releases</name>
+                    <url>https://aemaacsholaddon.jfrog.io/artifactory/default-maven-virtual</url>
+                </repository>
             </repositories>
 
             <pluginRepositories>

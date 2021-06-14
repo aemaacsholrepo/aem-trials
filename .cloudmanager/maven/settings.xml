@@ -1,0 +1,15 @@
+<settings 
+  xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+  https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <servers>
+    <server>
+      <id>hol-public-artifactory</id>
+      <username>liveex@adobedemo.com</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJ3RHVFNVdWWGtsMXJfM2dHckZTOGdkc05NSTByOVREazdCclN6SVJ5bDBZIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL2xpdmVleEBhZG9iZWRlbW8uY29tIiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvYWRtaW4gYXBpOioiLCJhdWQiOiJqZnJ0QCoiLCJpc3MiOiJqZmZlQDAwMCIsImlhdCI6MTYyMjc4MzQ3NywianRpIjoiMzFiODQ0ODMtYzk0MC00N2UyLTg0ZTUtZmRkYTA3YWY2MDNiIn0.PT4YX9UWZeidwqlIQZbSBTcCoF84R8RoRyQ2HuL5iQdgQMZpRgahwGUDAncC1n5wLdMI7D90pmMgYchdb-ahJlt3-cusWu6coHXMTQG66pDtHhdCkFYQOAoT6cVfncOVMR1_V4sUdIY4gCTVosVwCs7083v1y8GlSKWp-UR9NDIsoHZzpAjS5XcnaVZj3lPfIrVcqw8t5lww-B8U2w6AjFnGSOA-3tOG7m5Q3aoJxDhmj5CZcZ3AcKMFQpcgsy6tZ25qtejA2FEHppwTP_dOX0KXGGpDHAOjQsa04Rc_ptmgd2aeol_35M6K2sf8sjrYENgtfhpVt_6kvsN1I19AwQ</password>
+    </server>
+  </servers>  
+  
+</settings> 

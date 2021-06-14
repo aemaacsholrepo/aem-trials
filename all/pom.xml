@@ -77,6 +77,24 @@
                             <type>zip</type>
                             <target>/apps/aem-trials-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.aemcs.holguides</groupId>
+                            <artifactId>aemcshol.ui.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/adobeliveexprogram6-vendor-packages/content/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
+                            <type>zip</type>
+                            <target>/apps/adobeliveexprogram6-vendor-packages/content/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd.ui.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/adobeliveexprogram6-vendor-packages/content/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -184,6 +202,23 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
+        <dependency>
+            <groupId>com.aemcs.holguides</groupId>
+            <artifactId>aemcshol.ui.content</artifactId>
+            <type>zip</type>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem.guides</groupId>
+            <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
+            <type>zip</type>
+            <version>1.0.0</version>
+        </dependency>
+         <dependency>
+            <groupId>com.adobe.aem.guides</groupId>
+            <artifactId>aem-guides-wknd.ui.content</artifactId>
+            <type>zip</type>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 </project>
