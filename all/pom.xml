@@ -81,19 +81,19 @@
                             <groupId>com.aemcs.holguides</groupId>
                             <artifactId>aemcshol.ui.content</artifactId>
                             <type>zip</type>
-                            <target>/apps/adobeliveexprogram6-vendor-packages/content/install</target>
+                            <target>/apps/aem-trials-vendor-packages/content/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.content.sample</artifactId>
                             <type>zip</type>
-                            <target>/apps/adobeliveexprogram6-vendor-packages/content/install</target>
+                            <target>/apps/aem-trials-vendor-packages/content/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
                             <artifactId>aem-guides-wknd.ui.content</artifactId>
                             <type>zip</type>
-                            <target>/apps/adobeliveexprogram6-vendor-packages/content/install</target>
+                            <target>/apps/aem-trials-vendor-packages/content/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
