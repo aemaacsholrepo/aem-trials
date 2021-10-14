@@ -56,6 +56,13 @@
     </properties>
 
     <build>
+          <extensions>
+            <extension>
+                <groupId>com.gkatzioura.maven.cloud</groupId>
+                <artifactId>azure-storage-wagon</artifactId>
+                <version>2.3</version>
+            </extension>
+        </extensions>
         <plugins>
             <!-- Maven Release Plugin -->
             <plugin>
@@ -424,10 +431,11 @@ Bundle-DocURL:
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>hol-platform</id>
-                    <url>https://maven.pkg.github.com/aemaacsholrepo/hol-platform</url>
+                    <id>hol-azure-storage</id>
+                    <name>holaddonstorage</name>
+                    <url>bs://holaddonstorage/release</url>
+                    <layout>default</layout>
                 </repository>
-             
             </repositories>
 
             <pluginRepositories>
