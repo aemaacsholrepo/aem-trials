@@ -6,9 +6,9 @@
 
   <servers>
     <server>
-      <id>hol-platform</id>
-      <username>aemaacsholrepo</username>
-      <password>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</password>
+      <id>hol-azure-storage</id>
+      <username>holaddonstorage</username>
+      <password>ebauEQ9FPJf9GG+8/vTfUK/9Je09G3cMdmI87jZrHZb4jScz5zjun3pQaTgUwXUB3u+9FHXGi5IffltEZbPc/w==</password>
     </server>
   </servers>
   
